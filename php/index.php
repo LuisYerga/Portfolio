@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Portfolio</title>
+  <title>Title</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,15 +10,28 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-</head>
+    <link rel="stylesheet" href="../css/custom.css">
+</head> 
 
 <body>
-  <header>
-    <!-- place navbar here -->
-  </header>
+    <header>
+      <?php
+      include("header.php")
+      ?>
+    </header>
   <main>
-    
+    <section class="introduccion">
+      <div class="container">
+        <div id="intro">
+          <h1>Luis Yerga Mayor</h1>
+          <h6>Desarrollador Web</h6>
+          <p>Me dedico al desarrollo de aplicaciones web, contando con conocimientos tanto de front como de back end</p>
+        </div>
+        <div id="fotoPerfil">
+          <img src="../img/perfil.jpg">
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <!-- place footer here -->
@@ -32,5 +45,4 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 </body>
-
 </html>

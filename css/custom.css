@@ -1,0 +1,25 @@
+:root{
+    --color-blanco:#ffffff;
+    --color-negro:#000000;
+}
+
+main{
+    background-color: var(--color-negro);
+}
+.tx-white{
+    color: var(--color-blanco);
+}
+
+#intro h1{
+    text-decoration: underline;
+}
+
+#intro{
+    text-align: center  ;
+    color: var(--color-blanco);
+}
+
+#fotoPerfil{
+    display: flex;
+    justify-content: center;
+}
