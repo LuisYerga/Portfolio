@@ -1,11 +1,19 @@
 :root{
-    --color-blanco:#ffffff;
-    --color-negro:#000000;
+    --color-blanco:#f6f3f3;
+    --color-negro:#0d0d0d;
 }
 
 body{
     background-color: var(--color-negro);
+    color: var(--color-blanco);
 }
+
+hr{
+    background-color: var(--color-blanco);
+    width: 60vw;
+    height: 5px;
+}
+
 .tx-white{
     color: var(--color-blanco);
 }
@@ -15,8 +23,7 @@ body{
 }
 
 #intro{
-    text-align: center  ;
-    color: var(--color-blanco);
+    text-align: center;
 }
 
 #fotoPerfil{
@@ -28,12 +35,20 @@ body{
     display: flex;
     justify-content: center;
 }
+
 #redes img{
     padding: 1%;
 }
 
+#separador1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
 @media only screen and (min-width: 1024px) {
-    .container{
+    #contenedor{
         margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(2,1fr);

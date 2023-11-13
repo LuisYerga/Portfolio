@@ -21,7 +21,7 @@
     </header>
   <main>
     <section class="introduccion">
-      <div class="container">
+      <div class="container" id="contenedor">
         <div id="intro">
           <h1>Luis Yerga Mayor</h1>
           <h6>Desarrollador Web</h6>
@@ -35,6 +35,15 @@
           <img src="../img/github.png" alt="Github">
           <img src="../img/instagram.png" alt="Instagram">
         </div>
+      </div>
+    </section>
+    <section class="sobreMi">
+      <div class="container" id="contenedor2">
+        <div id="separador1">
+          <hr>          
+          <h4>Sobre Mi</h4>
+        </div>
+        
       </div>
     </section>
   </main>
