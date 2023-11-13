@@ -3,7 +3,7 @@
     --color-negro:#000000;
 }
 
-main{
+body{
     background-color: var(--color-negro);
 }
 .tx-white{
@@ -22,4 +22,36 @@ main{
 #fotoPerfil{
     display: flex;
     justify-content: center;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+}
+#redes img{
+    padding: 1%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .container{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto auto;
+    }
+    #intro{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #imagenPerfil{
+        content: url("../img/perfil2.JPG");
+    }
+    #fotoperfil{
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+    #redes{
+        grid-column: 1;
+        grid-row: 2;
+    }
 }

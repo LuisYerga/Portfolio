@@ -28,7 +28,12 @@
           <p>Me dedico al desarrollo de aplicaciones web, contando con conocimientos tanto de front como de back end</p>
         </div>
         <div id="fotoPerfil">
-          <img src="../img/perfil.jpg">
+          <img id="imagenPerfil" src="../img/perfil.jpg" alt="Foto pefil">
+        </div>
+        <div id="redes">
+          <img src="../img/linkedin.png" alt="Linkedin">
+          <img src="../img/github.png" alt="Github">
+          <img src="../img/instagram.png" alt="Instagram">
         </div>
       </div>
     </section>
