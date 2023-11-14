@@ -21,7 +21,7 @@
     </header>
   <main>
     <section class="introduccion">
-      <div class="container contenedor" id="contenedor1">
+      <div class="container" id="contenedor1">
         <div id="intro">
           <h1>Luis Yerga Mayor</h1>
           <h6>Desarrollador Web</h6>
@@ -42,7 +42,7 @@
         <hr>          
         <h3>Sobre Mi</h3>
       </div>
-      <div class="container contenedor" id="contenedor2">
+      <div class="container" id="contenedor2">
         <div id="informacion">
           <p>Hola, mi nombre es Luis Yerga Mayor. Estudie el grado de Desarrollo de Aplicaciones Web.</p>
           <p>Entre mis capacidades se encuentra el desarrollo en front, aunque personalmente me gusta más dedicarme al backend.</p>
@@ -52,7 +52,7 @@
         </div>
         <div id="tecnologias">
           <h4>Tecnologías</h4>
-          <div class="contenedor" id="subContenedor">
+          <div id="subContenedor">
             <div id="front">
               <h6>Lenguajes Front</h6>
               <p>Html, Css, JavaScript</p>
@@ -62,7 +62,7 @@
               <p>SQL, PHP, Java</p>
             </div>
             <div id="frameworks">
-              <h6>Framewokr</h6>
+              <h6>Framework</h6>
               <p>Bootstrap, Laravel, Angular, Sass, React</p>
             </div>
           </div>

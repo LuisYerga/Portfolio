@@ -58,7 +58,7 @@ hr{
 }
 
 @media only screen and (min-width: 1024px) {
-    .contenedor{
+    #contenedor1{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 2fr 0.5fr;
@@ -84,19 +84,29 @@ hr{
         grid-row: 2;
     }
 
+    #contenedor2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+    }
     #informacion{
         grid-column:2;
         grid-row:1;
     }
     #fotoCodigo{
         grid-column:1;
-        grid-row: 1/2;
+        grid-row: 1/ span 2;
     }
+    
     #tecnologias{
         grid-column: 2;
         grid-row:2;
     }
 
+    #subContenedor{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
     #front{
         grid-column: 1;
         grid-row:1;
