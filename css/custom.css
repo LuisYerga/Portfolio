@@ -10,7 +10,7 @@ body{
 
 hr{
     background-color: var(--color-blanco);
-    width: 60vw;
+    width: 70vw;
     height: 5px;
 }
 
@@ -42,10 +42,17 @@ hr{
 
 #separador1{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: center;
+    margin-right: 2%;
 }
 
+#separador1 h4{
+    margin-left: 2%;
+}
+
+#informacion{
+    text-align: center;
+}
 
 @media only screen and (min-width: 1024px) {
     #contenedor{

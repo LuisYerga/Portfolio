@@ -38,12 +38,22 @@
       </div>
     </section>
     <section class="sobreMi">
-      <div class="container" id="contenedor2">
         <div id="separador1">
           <hr>          
           <h4>Sobre Mi</h4>
         </div>
-        
+        <div class="container" id="contenedor2">
+        <div id="informacion">
+          <p>Hola, mi nombre es Luis Yerga Mayor. Estudie el grado de Desarrollo de Aplicaciones Web.</p>
+          <p>Entre mis capacidades se encuentra el desarrollo en front, aunque personalmente me gusta más dedicarme al backend.</p>
+        </div>
+        <div id="fotoCodigo">
+          <img id="imagenPerfil" src="../img/perfil.jpg" alt="Foto pefil">
+        </div>
+        <div id="tecnologias">
+          <h4>Tecnologías</h4>
+
+        </div>
       </div>
     </section>
   </main>
