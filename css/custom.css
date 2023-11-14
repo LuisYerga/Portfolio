@@ -10,12 +10,16 @@ body{
 
 hr{
     background-color: var(--color-blanco);
-    width: 70vw;
+    width: 69vw;
     height: 5px;
 }
 
 .tx-white{
     color: var(--color-blanco);
+}
+
+#contenedor1{        
+    margin-top: 3vw;
 }
 
 #intro h1{
@@ -26,11 +30,7 @@ hr{
     text-align: center;
 }
 
-#fotoPerfil{
-    display: flex;
-    justify-content: center;
-}
-
+#fotoPerfil,
 #redes{
     display: flex;
     justify-content: center;
@@ -46,20 +46,21 @@ hr{
     margin-right: 2%;
 }
 
-#separador1 h4{
+#separador1 h3{
     margin-left: 2%;
 }
 
-#informacion{
+#informacion,
+#fotoCodigo,
+#tecnologias{
     text-align: center;
+    margin-top: 5%;
 }
 
 @media only screen and (min-width: 1024px) {
-    #contenedor{
-        margin-top: 50px;
+    .contenedor{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: auto auto;
     }
     #intro{
         grid-column: 1;
@@ -75,5 +76,31 @@ hr{
     #redes{
         grid-column: 1;
         grid-row: 2;
+    }
+
+    #informacion{
+        grid-column:2;
+        grid-row:1;
+    }
+    #fotoCodigo{
+        grid-column:1;
+        grid-row: 1/2;
+    }
+    #tecnologias{
+        grid-column: 2;
+        grid-row:2;
+    }
+    
+    #front{
+        grid-column: 1;
+        grid-row:1;
+    }
+    #back{
+        grid-column: 2;
+        grid-row:2;
+    }
+    #frameworks{
+        grid-column: 1;
+        grid-row:3;
     }
 }
