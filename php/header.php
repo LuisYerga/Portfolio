@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse justify-content-lg-end" id="mynavbar"> <!--Cuando se expande se alinean a la izquierda-->
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a class="nav-link tx-white" href="#consulta1"><h6>Sobre mi</h6></a>
+          <a class="nav-link tx-white" href="#contenedor2"><h6>Sobre mi</h6></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link tx-white" href="#consulta2"><h6>Proyectos</h6></a>
+          <a class="nav-link tx-white" href="#contenedor3"><h6>Proyectos</h6></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link tx-white" href="#consulta3"><h6>Contacto</h6></a>
+          <a class="nav-link tx-white" href="#contenedor3"><h6>Contacto</h6></a>
         </li>
       </ul>
     </div>

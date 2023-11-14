@@ -40,7 +40,7 @@ hr{
     padding: 1%;
 }
 
-#separador1{
+.separador{
     display: flex;
     justify-content: center;
     margin-right: 2%;
@@ -50,12 +50,17 @@ hr{
     margin-left: 2%;
 }
 
+#separador2 hr{
+    margin-left: 2%;
+}
+
 #informacion,
 #fotoCodigo,
 #tecnologias{
     text-align: center;
     margin-top: 5%;
 }
+
 
 @media only screen and (min-width: 1024px) {
     #contenedor1{
@@ -97,7 +102,7 @@ hr{
         grid-column:1;
         grid-row: 1/ span 2;
     }
-    
+
     #tecnologias{
         grid-column: 2;
         grid-row:2;

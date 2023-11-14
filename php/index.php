@@ -38,7 +38,7 @@
       </div>
     </section>
     <section class="sobreMi">
-      <div id="separador1">
+      <div class="separador" id="separador1">
         <hr>          
         <h3>Sobre Mi</h3>
       </div>
@@ -70,7 +70,13 @@
       </div>
     </section>
     <section class="proyectos">
-      
+      <div class="separador" id="separador2">
+        <h3>Proyectos</h3>
+        <hr>          
+      </div>
+      <div class="container" id="contenedor3">
+
+      </div>
     </section>
   </main>
   <footer>
