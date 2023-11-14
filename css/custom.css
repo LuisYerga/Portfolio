@@ -61,6 +61,7 @@ hr{
     .contenedor{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 2fr 0.5fr;
     }
     #intro{
         grid-column: 1;
@@ -69,9 +70,14 @@ hr{
     #imagenPerfil{
         content: url("../img/perfil2.JPG");
     }
-    #fotoperfil{
+    #fotoPerfil{
         grid-column: 2;
-        grid-row: 1 / span 2;
+        grid-row:1/ span 2;
+    }
+    #redes img{
+        width:10%;
+        height: 45%;
+
     }
     #redes{
         grid-column: 1;
@@ -90,7 +96,7 @@ hr{
         grid-column: 2;
         grid-row:2;
     }
-    
+
     #front{
         grid-column: 1;
         grid-row:1;

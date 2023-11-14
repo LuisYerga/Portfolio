@@ -69,6 +69,9 @@
         </div>
       </div>
     </section>
+    <section class="proyectos">
+      
+    </section>
   </main>
   <footer>
     <!-- place footer here -->
