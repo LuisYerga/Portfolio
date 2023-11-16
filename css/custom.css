@@ -56,7 +56,11 @@ hr{
 
 #informacion,
 #fotoCodigo,
-#tecnologias{
+#tecnologias,
+#git,
+#linkedin,
+#instagram,
+#correo{
     text-align: center;
     margin-top: 5%;
 }

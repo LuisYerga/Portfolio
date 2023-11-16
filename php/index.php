@@ -133,6 +133,22 @@
         <h3>Contacto</h3>
       </div>
       <div class="container" id="contenedor4">
+        <div id="git">
+          <h6>GitHub</h6>
+        </div>
+        <div id="linkedin">
+          <img src="../img/linkedin.png" alt="Linkedin">
+          <h6>Linkedin</h6>
+        </div>
+        <div id="instagram">
+          <h6>Instagram</h6>
+          <p></p>
+        </div>
+        <div id="correo">
+          <h6>Correo</h6>
+          <p></p>
+        </div>
+      </div>
     </section>
   </main>
   <footer>
