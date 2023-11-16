@@ -76,7 +76,12 @@
         <hr>
       </div>
       <div class="container" id="contenedor3">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="descripcionCarrusel">
+          <h4>Carrusel de Proyectos</h4>
+          <p>A través de este carrusel de imagenes expongo algunos de los poryectos que he realizado para ganar experiencia en el mundo de la programacion</p>
+          <p>Para saber más sobre estos visite los enlaces hacia sus repositorios en GitHub </p>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
@@ -87,22 +92,23 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="..." class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
+              <img src="../img/Happy.PNG" class="d-block mx-auto w-50" alt="Happy Harvest">
+              <div class="carousel-caption d-md-block">
+                <h5 class="bg-dark d-inline">Happy Harvest</h5>
+                <br>
+                <p class="bg-dark d-inline">Tu lista de la compra interactiva</p>
+              </div> 
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <img src="..." class="d-block mx-auto" alt="...">
+              <div class="carousel-caption d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <img src="..." class="d-block mx-auto" alt="...">
+              <div class="carousel-caption d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
               </div>
@@ -120,6 +126,13 @@
           </button>
         </div>
       </div>
+    </section>
+    <section class="contacto">
+      <div class="separador" id="separador1">
+        <hr>
+        <h3>Contacto</h3>
+      </div>
+      <div class="container" id="contenedor4">
     </section>
   </main>
   <footer>

@@ -13,7 +13,7 @@
           <a class="nav-link tx-white" href="#contenedor3"><h6>Proyectos</h6></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link tx-white" href="#contenedor3"><h6>Contacto</h6></a>
+          <a class="nav-link tx-white" href="#contenedor4"><h6>Contacto</h6></a>
         </li>
       </ul>
     </div>

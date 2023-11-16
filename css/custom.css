@@ -60,7 +60,10 @@ hr{
     text-align: center;
     margin-top: 5%;
 }
-
+#descripcionCarrusel{
+    text-align: center;
+    margin-top: 2.5%;
+}
 
 @media only screen and (min-width: 1024px) {
     #contenedor1{
