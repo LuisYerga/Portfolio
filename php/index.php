@@ -28,12 +28,12 @@
           <p>Me dedico al desarrollo de aplicaciones web, contando con conocimientos tanto de front como de back end</p>
         </div>
         <div id="fotoPerfil">
-          <img id="imagenPerfil" src="../img/perfil.jpg" alt="Foto pefil">
+          <img id="imagenPerfil" src="../img/personal/perfil.jpg" alt="Foto pefil">
         </div>
         <div id="redes">
-          <img src="../img/linkedin.png" alt="Linkedin">
-          <img src="../img/github.png" alt="Github">
-          <img src="../img/instagram.png" alt="Instagram">
+          <img src="../img/icons/linkedin.png" alt="Linkedin">
+          <img src="../img/icons/github.png" alt="Github">
+          <img src="../img/icons/instagram.png" alt="Instagram">
         </div>
       </div>
     </section>
@@ -49,7 +49,7 @@
             backend.</p>
         </div>
         <div id="fotoCodigo">
-          <img id="imagenPerfil" src="../img/perfil.jpg" alt="Foto pefil">
+          <img id="imagenPerfil" src="../img/personal/perfil.jpg" alt="Foto pefil">
         </div>
         <div id="tecnologias">
           <h4>Tecnologías</h4>
@@ -92,7 +92,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="../img/Happy.PNG" class="d-block mx-auto w-50" alt="Happy Harvest">
+              <img src="../img/proyectos/Happy.PNG" class="d-block mx-auto w-50" alt="Happy Harvest">
               <div class="carousel-caption d-md-block">
                 <h5 class="bg-dark d-inline">Happy Harvest</h5>
                 <br>
@@ -137,7 +137,7 @@
           <h6>GitHub</h6>
         </div>
         <div id="linkedin">
-          <img src="../img/linkedin.png" alt="Linkedin">
+          <img src="../img/icons/linkedin.png" alt="Linkedin">
           <h6>Linkedin</h6>
         </div>
         <div id="instagram">

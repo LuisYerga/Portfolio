@@ -64,6 +64,17 @@ hr{
     text-align: center;
     margin-top: 5%;
 }
+
+#git,
+#linkedin,
+#instagram,
+#correo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 #descripcionCarrusel{
     text-align: center;
     margin-top: 2.5%;
@@ -80,7 +91,7 @@ hr{
         grid-row: 1;
     }
     #imagenPerfil{
-        content: url("../img/perfil2.JPG");
+        content: url("../img/personal/perfil2.JPG");
     }
     #fotoPerfil{
         grid-column: 2;
