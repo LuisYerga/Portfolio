@@ -65,19 +65,19 @@ hr{
     margin-top: 5%;
 }
 
-#git,
-#linkedin,
-#instagram,
-#correo{
+#encabezado{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
 #descripcionCarrusel{
     text-align: center;
     margin-top: 2.5%;
+}
+
+#contenedor4 img{
+    width: 5%;
 }
 
 @media only screen and (min-width: 1024px) {

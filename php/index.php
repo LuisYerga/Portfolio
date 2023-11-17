@@ -134,19 +134,29 @@
       </div>
       <div class="container" id="contenedor4">
         <div id="git">
-          <h6>GitHub</h6>
+          <div id="encabezado">
+            <img src="../img/icons/github.png" alt="GitHub">
+            <h6>GitHub</h6>
+          </div>
         </div>
         <div id="linkedin">
-          <img src="../img/icons/linkedin.png" alt="Linkedin">
-          <h6>Linkedin</h6>
+          <div id="encabezado">
+            <img src="../img/icons/linkedin.png" alt="Linkedin">
+            <h6>Linkedin</h6>
+          </div>
         </div>
         <div id="instagram">
-          <h6>Instagram</h6>
-          <p></p>
+          <div id="encabezado">
+            <img src="../img/icons/instagram.png" alt="Instagram">
+            <h6>Instagram</h6>
+          </div>
         </div>
         <div id="correo">
-          <h6>Correo</h6>
-          <p></p>
+          <div id="encabezado">
+            <img src="../img/icons/correo.png" alt="Correo">
+            <h6>Correo</h6>
+          </div>
+          <p>Para un contacto más directo no dudes en enviarme un correo a lyergamayor1@gmail.com</p>
         </div>
       </div>
     </section>
